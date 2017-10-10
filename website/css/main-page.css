@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*--------------------------------
+	Main page video styling
+----------------------------------*/
+
+#videoarea{
+	display:block;
+	position:relative;
+	width:90%;
+	margin:0 auto;
+}
