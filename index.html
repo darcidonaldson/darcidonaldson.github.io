@@ -1,12 +1,485 @@
-
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Testing for Site</title>
-  </head>
-  <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Darci Donaldson Resume Website</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Add custom CSS here -->
+
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/ekko-lightbox.css" rel="stylesheet">
+  <link href="css/flexslider.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+  <div id="boxWrapp">
+    <div class="main-nav clearfix">
+      <!-- navbar -->
+      <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#NavCol">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand bg-primary" href="#about">DARCI</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="NavCol">
+            <ul class="nav navbar-nav navbar-right">
+
+              <li class="current"><a href="#about" class="linear">Home</a></li>
+              <li><a href="#aboutMore" class="linear">About</a></li>
+              <li><a href="#work" class="linear">Work</a></li>
+              <li><a href="#contact" class="linear">Contact</a></li>
+            </ul>
+
+
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </nav>
+
+    </div>
+    <!-- Full Page Image Header Area -->
+    <div id="about" class="header">
+
+      <div class="maskHeader"></div>
+      <div class="main-caption">
+        <div class="logo">
+          <img src="img/darci-logo.png" alt="logo" />
+        </div>
+        <!-- slider -->
+        <div id="flex-head" class="flexslider">
+          <ul class="slides">
+            <li>
+              <h1>Hi, I'm Darci</h1>
+              <h2>Welcome to My Resume Website- I will be updating my site soon!</h2>
+            </li>
+            <li>
+              <h1>I'm a Front End Web Developer</h1>
+              <h2>Bridging the gap between user experience and server side logic</h2>
+            </li>
+            <li>
+              <h1>And I'm a Web Designer/ Developer</h1>
+              <h2>Design &amp; build brand websites</h2>
+            </li>
+            <li>
+              <h1>And I'm a Freelancer</h1>
+              <h2>Passionate about solving problems with simplicity & honestly</h2>
+            </li>
+          </ul>
+        </div>
+        <!-- end slider -->
+        <a href="#aboutMore" class="btn btnAbout btn-clear border-color color-primary btn-lg linear">READ MORE</a>
+      </div>
+      <!--  end main caption -->
+
+    </div>
+    <!-- end header -->
+    <!-- /Full Page Image Header Area -->
+
+
+    <!-- content -->
+    <div id="aboutMore" class="page">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10  col-md-offset-1">
+            <div class="build title-page">
+              <h2 class="text-center">About Me</h2>
+              <div class="line-title bg-primary"></div>
+            </div>
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- end row -->
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="build main-about">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="main-avatar text-center">
+                    <div class="avatar img-thumbnail img-circle">
+                      <img src="img/avatar.jpg" alt="avatar" />
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col-md-9">
+                  <div class="about-content">
+                    <p>Hello, I'm Darci. I'm a web developer and freelancer. My passion are websites. I started coding websites in 2013, and much has changed since I first started out. Keeping up with all the changes is very exciting and I relish in the
+                      task of learning new coding and systems. I would love the opportunity to share what I know with your team as well as learn what your team can teach me. </p>
+                    <p>You can attain a copy of my resume <a href="img/darci-resume.pdf" target="_blank">here</a>.</p>
+                    <a href="#contact" class="btn btn-clear btn-lg border-color linear hire">AVAILABLE TO HIRE</a>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+          <!-- end col -->
+
+          <div class="col-md-6">
+            <div class="build progressbar-a">
+              <div class="wrapp-progress">
+                <p class="pull-left">PHOTOSHOP</p>
+                <div class="progress">
+
+                  <div class="progress-bar  clearfix" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                    <span class="precent-value"></span>
+                    <i class="fa fa-caret-down"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="wrapp-progress">
+                <p class="pull-left">HTML & CSS</p>
+                <div class="progress">
+
+                  <div class="progress-bar  clearfix" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                    <span class="precent-value"></span>
+                    <i class="fa fa-caret-down"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="wrapp-progress">
+                <p class="pull-left">BOOTSTRAP</p>
+                <div class="progress">
+
+                  <div class="progress-bar  clearfix" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                    <span class="precent-value"></span>
+                    <i class="fa fa-caret-down"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="wrapp-progress">
+                <p class="pull-left">JAVASCRIPT</p>
+                <div class="progress">
+
+                  <div class="progress-bar  clearfix" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                    <span class="precent-value"></span>
+                    <i class="fa fa-caret-down"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="wrapp-progress">
+                <p class="pull-left">WORDPRESS</p>
+                <div class="progress">
+
+                  <div class="progress-bar  clearfix" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                    <span class="precent-value"></span>
+                    <i class="fa fa-caret-down"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end row -->
+      </div>
+    </div>
+
+    <!-- /Intro -->
+
+    <!-- Portfolio -->
+    <div id="work" class="page clearfix">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10  col-md-offset-1">
+            <div class="build title-page">
+              <h2 class="text-center">MY PORTFOLIO</h2>
+              <div class="line-title bg-primary"></div>
+            </div>
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- end row -->
+        <div class="col-md-12">
+
+          <ul id="filterOptions" class="clearfix">
+            <li class="cur"><a class="btn btn-link linear" href="#" data-group="all">All</a></li>
+            <li><span>/</span></li>
+            <li><a class="btn btn-link linear" href="#" data-group="coded">Custom Websites</a></li>
+            <li><span>/</span></li>
+            <li><a class="btn btn-link linear" href="#" data-group="theme">Themed Websites</a></li>
+            <li><span>/</span></li>
+            <li><a class="btn btn-link linear" href="#" data-group="site-work">Site Work</a></li>
+          </ul>
+
+        </div>
+        <!--end-col-->
+        <div class="col-md-12">
+          <div class="folio-content clearfix">
+            <div class="row">
+              <div class="container_folio clearfix gallery" id="grid">
+                <div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "mobile", "coded"]'>
+                  <div class="folio-img">
+                    <div class="portfolio-item">
+                      <div class="thumbnail">
+                        <div class="thumb-img">
+                          <div class="link-attr">
+                            <a href="img/portfolio/p03-info.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Custom Design Website 2013" class="link-search animated linear"><i class="fa fa-search"></i></a>
+                            <a href="SimplyLove/index.html" target="_blank" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
+                          </div>
+                          <img class="linear img-portfolio img-responsive" src="img/portfolio/p03-large.jpg" alt="Custom Design Website">
+                          <div class="link"><a href="">Simply Love Films</a></div>
+                          <div class="folio-caption">
+                            <i class="fa fa-caret-up"></i>
+                            <p>Fullscreen HTML 2013</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "coded"]'>
+                  <!-- this was data-groups='["all", "ilustrator"]'-->
+                  <div class="folio-img">
+                    <div class="portfolio-item ">
+                      <div class="thumbnail">
+                        <div class="thumb-img">
+
+                          <div class="link-attr">
+                            <a href="img/portfolio/p01-info.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Custom Design 2013" class="link-search animated linear"><i class="fa fa-search"></i></a>
+                            <a href="amgwebsite/index.html" target="_blank" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
+                          </div>
+                          <img class="linear img-portfolio img-responsive" src="img/portfolio/p01-large.jpg" alt="Custom Design Website">
+
+
+                          <div class="folio-caption">
+                            <i class="fa fa-caret-up"></i>
+                            <p>Responsive HTML website 2013</p>
+
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "mobile", "coded"]'>
+                  <div class="folio-img">
+                    <div class="portfolio-item">
+                      <div class="thumbnail">
+                        <div class="thumb-img">
+                          <div class="link-attr">
+                            <a href="img/portfolio/p04-info.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Simple Custom One Page Responsive Site 2013" class="link-search animated linear"><i class="fa fa-search"></i></a>
+                            <a href="website/index.html" target="_blank" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
+                          </div>
+                          <img class="linear img-portfolio img-responsive" src="img/portfolio/p04-large.jpg" alt="This Is Image">
+                          <div class="link"><a href="">This Is Folio Link4</a></div>
+                          <div class="folio-caption">
+                            <i class="fa fa-caret-up"></i>
+                            <p>One Page Responsive Site 2013</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "coded"]'>
+                  <div class="folio-img">
+                    <div class="portfolio-item">
+                      <div class="thumbnail">
+                        <div class="thumb-img">
+                          <div class="link-attr">
+                            <a href="img/portfolio/p02-info.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Custom Design Responsive HTML5 Site 2013" class="link-search animated linear"><i class="fa fa-search"></i></a>
+                            <a href="diversity/index.html" target="_blank" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
+                          </div>
+                          <img class="linear img-portfolio img-responsive" src="img/portfolio/p02-large.jpg" alt="This Is Image">
+                          <div class="link"><a href="">This Is Folio Link2</a></div>
+                          <div class="folio-caption">
+                            <i class="fa fa-caret-up"></i>
+                            <p>Responsive HTML5 website 2013</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "site-work"]'>
+                  <div class="folio-img">
+                    <div class="portfolio-item">
+                      <div class="thumbnail">
+                        <div class="thumb-img">
+                          <div class="link-attr">
+                            <a href="img/portfolio/p07-info.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="American Girl Front End Web Developer 2014-2015" class="link-search animated linear"><i class="fa fa-search"></i></a>
+                            <a href="http://www.americangirl.com/" target="_blank" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
+                          </div>
+                          <img class="linear img-portfolio img-responsive" src="img/portfolio/p07-large.jpg" alt="Site Work">
+                          <div class="link"><a href="">American Girl</a></div>
+                          <div class="folio-caption">
+                            <i class="fa fa-caret-up"></i>
+                            <p>Site Work 2014-15</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "theme"]'>
+                  <div class="folio-img">
+                    <div class="portfolio-item">
+                      <div class="thumbnail">
+                        <div class="thumb-img">
+                          <div class="link-attr">
+                            <a href="img/portfolio/p05-info.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Theme HTML Responsive Site 2015" class="link-search animated linear"><i class="fa fa-search"></i></a>
+                            <a href="shantel-themed/swebsite/index.html" target="_blank" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
+                          </div>
+                          <img class="linear img-portfolio img-responsive" src="img/portfolio/p05-large.jpg" alt="This Is Image">
+                          <div class="link"><a href="">Theme Site 2015</a></div>
+                          <div class="folio-caption">
+                            <i class="fa fa-caret-up"></i>
+                            <p>Theme HTML Site 2015</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 box" data-groups='["all", "coded"]'>
+                  <div class="folio-img">
+                    <div class="portfolio-item">
+                      <div class="thumbnail">
+                        <div class="thumb-img">
+                          <div class="link-attr">
+                            <a href="img/portfolio/p06-info.jpg" data-gallery="global-gallery" data-parent="" data-toggle="lightbox" data-title="Custom Design Bootstrap 2015" class="link-search animated linear"><i class="fa fa-search"></i></a>
+                            <a href="shantel-coded/index.html" target="_blank" class="link-chain animated linear"><i class="fa  fa-chain"></i></a>
+                          </div>
+                          <img class="linear img-portfolio img-responsive" src="img/portfolio/p06-large.jpg" alt="This Is Image">
+                          <div class="link"><a href="">Shantel Custom Design Website</a></div>
+                          <div class="folio-caption">
+                            <i class="fa fa-caret-up"></i>
+                            <p>Bootstrap Responsive HTML 2015</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <!-- end folio content -->
+        </div>
+        <!-- end col -->
+      </div>
+      <!--end container-->
+
+
+    </div>
+    <!-- /Portfolio -->
+
+    <!--contact-->
+    <div id="contact" class="page page-bgcolor">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10  col-md-offset-1">
+            <div class="build title-page">
+              <h2 class="text-center">GET IN TOUCH</h2>
+              <div class="line-title bg-primary"></div>
+            </div>
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- end row -->
+        <div class="row">
+          <div class="col-md-4 ">
+            <div class="build contact clearfix text-center">
+              <span class="fa fa-map-marker"></span>
+              <p>Madison, WI
+                <p>
+            </div>
+          </div>
+          <!-- end col -->
+          <div class="col-md-4 ">
+            <div class="build contact clearfix text-center">
+              <span class="fa fa-phone"></span>
+              <p>mob.<a href="tel:+920 246 6639">+920 246 6639</a></p>
+
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="build contact clearfix text-center">
+              <span class="fa fa-envelope"></span>
+              <br>
+              <a href="mailto:darcimdonaldson@gmail.com">darcimdonaldson@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <!-- end row -->
+
+      </div>
+      <!-- end container -->
+    </div>
+    <!--contact-->
+
+    <!-- Footer -->
+    <footer class="bg-black">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 ">
+            <div class="cp-right">
+              <p>&copy; 2015 Darci Donaldson</p>
+            </div>
+            <!-- end build -->
+          </div>
+          <!-- end col -->
+
+          <div class="col-md-6 text-right">
+
+            <ul class="list-inline">
+              <li><a href="https://www.facebook.com/home.php" class="socIcon color-primary linear"><i class="fa fa-facebook fa-2x"></i></a></li>
+              <li><a href="https://www.linkedin.com/profile/view?id=AAMAAAa2GqQBtbTGWh97kZyVj6dhJbCNOsIpC9s&trk=hp-identity-name" class="socIcon color-primary linear"><i class="fa fa-linkedin fa-2x"></i></a></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="js/ekko-lightbox.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.shuffle.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
+
+  </div>
+</body>
+
 </html>
